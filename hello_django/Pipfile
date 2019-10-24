@@ -8,8 +8,8 @@ pylint = "*"
 pylint-django = "*"
 
 [packages]
-django = "==2.2.3"
 markdown = "*"
+django = "==2.2.4"
 
 [requires]
 python_version = "3.6"
