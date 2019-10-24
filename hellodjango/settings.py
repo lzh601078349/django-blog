@@ -25,8 +25,9 @@ SECRET_KEY = '=)e(qrb^=t_=g&ra&a_*b9nb*!wt2ip+d6-6(=kjmr6mk@dirl'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-# ALLOWED_HOSTS = ['127.0.0.1', 'localhost ', '.xxx.com']#用域名访问网站时候需要开启这个，第三个是自己的域名
+# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost ',
+                 '.xxx.com']  # 用域名访问网站时候需要开启这个，第三个是自己的域名
 
 # Application definition
 
